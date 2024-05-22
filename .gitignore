@@ -1,0 +1,7 @@
+﻿node_modules/
+bin/
+obj/
+.vs/
+.DS_Store
+package-lock.json
+Migrations/

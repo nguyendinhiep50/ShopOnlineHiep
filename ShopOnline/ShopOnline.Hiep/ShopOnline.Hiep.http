@@ -1,0 +1,6 @@
+@ShopOnline.Hiep_HostAddress = http://localhost:5000
+
+GET {{ShopOnline.Hiep_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
