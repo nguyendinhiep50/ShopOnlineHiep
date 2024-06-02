@@ -58,7 +58,6 @@ namespace ShopOnline.Hiep.Infrastructure
                 .AddEntityFrameworkStores<ApplicationDbContext>()
                 .AddDefaultTokenProviders();
 
-
             return services;
         }
     }

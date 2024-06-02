@@ -2,7 +2,7 @@
 
 namespace ShopOnline.Hiep.Domain.Entities
 {
-    public class Categories : BaseEnitites
+    public class Brands : BaseEnitites
     {
         [Key]
         public string? Id { get; set; } = string.Empty;

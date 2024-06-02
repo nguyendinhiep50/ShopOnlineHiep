@@ -1,4 +1,5 @@
 using Microsoft.AspNetCore.Identity;
+using ShopOnline.Hiep.Domain.Entities;
 
 namespace ShopOnline.Hiep.Infrastructure.Identity;
 
@@ -16,4 +17,7 @@ public class ApplicationUser : IdentityUser<Guid>
     public Guid? UpdatedBy { get; set; }
 
     public virtual ICollection<ApplicationUserRole> UserRoles { get; set; } = new List<ApplicationUserRole>();
+    public virtual ICollection<Ratings> Ratings { get; set; } = new List<Ratings>();
+    public virtual ICollection<Messages> Messages { get; set; } = new List<Messages>();
+
 }
